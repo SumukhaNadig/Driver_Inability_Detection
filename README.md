@@ -13,6 +13,9 @@ Files:
 1) EAR() : Calculates the ratio of vertical space between eyes to twice the width.
 2) MAR() : Calulates the same ratio for mouth
 3) Drowsy_detection() : Function which loops over each frame in the videostream and then segments the image to detect faces and convert it to grayscale to obtain the minimum convex set over the points to obtain a contour plot and blinks, yawns and sleep time is calculated.
+
+3. registernew.py :
+    This file adds details of a new user to the database such as the average ERA and Blink frequency by measuring those parameters for a period of 15-30 seconds each (variable depending upon use case). Once the details have been uploaded to the database in Firebase, the parameters of the driver can be retrieved next time to detect if he's sleeping and then raise an alert if so.
     
     
 Dependencies:
