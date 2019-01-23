@@ -10,10 +10,9 @@ Files:
     This is basically done with the help of an opensource dataset which maps points on the image to facial features and then finding the ratio of height of the space between each eye to twice its width as this ratio goes lower and lower as the person closes his eyes.
     
  Function descriptions:
- EAR() : Calculates the ratio of vertical space between eyes to twice the width.
- MAR() : Calulates the same ratio for mouth
- Drowsy_detection() : Function which loops over each frame in the videostream and then segments the image to detect faces and convert it to                       grayscale to obtain the minimum convex set over the points to obtain a contour plot and blinks, yawns and sleep time
-                      is calculated.
+1) EAR() : Calculates the ratio of vertical space between eyes to twice the width.
+2) MAR() : Calulates the same ratio for mouth
+3) Drowsy_detection() : Function which loops over each frame in the videostream and then segments the image to detect faces and convert it to grayscale to obtain the minimum convex set over the points to obtain a contour plot and blinks, yawns and sleep time is calculated.
     
     
 Dependencies:
