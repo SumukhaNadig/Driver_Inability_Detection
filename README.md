@@ -19,12 +19,12 @@ Files:
     
     
 Dependencies:
-scipy
-imutils
-dlib
-cv2
-numpy
-time
-pyrebase
-face_recognition
-firebase
+1. scipy
+2. imutils
+3. dlib
+4. cv2
+5. numpy
+6. time
+7. pyrebase
+8. face_recognition
+9. firebase
