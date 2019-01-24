@@ -9,7 +9,14 @@ Files:
     This file is the core of the project and measures the number of times the driver blinks, yawns and the amount of time his eyes remain closed to identify it as him sleeping and then raise an alert message. 
     This is basically done with the help of an opensource dataset which maps points on the image to facial features and then finding the ratio of height of the space between each eye to twice its width as this ratio goes lower and lower as the person closes his eyes.
     
+    Algorithm :
+    
     ![Algorithm](https://github.com/SumukhaNadig/Driver_Inability_Detection/blob/master/eye1.jpg)
+    
+    ![Formula](https://github.com/SumukhaNadig/Driver_Inability_Detection/blob/master/eye2.png)
+    
+    
+    
     
     
     Use case demonstration :
