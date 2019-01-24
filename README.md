@@ -20,7 +20,7 @@ Files:
     
     
     Use case demonstration :
-    [(https://github.com/SumukhaNadig/Driver_Inability_Detection/blob/master/bandicam%202019-01-24%2008-31-06-851.mp4)]
+    ![Use case](https://github.com/SumukhaNadig/Driver_Inability_Detection/blob/master/bandicam%202019-01-24%2008-31-06-851.mp4)
 
 3. registernew.py :
     This file adds details of a new user to the database such as the average ERA and Blink frequency by measuring those parameters for a period of 15-30 seconds each (variable depending upon use case). Once the details have been uploaded to the database in Firebase, the parameters of the driver can be retrieved next time to detect if he's sleeping and then raise an alert if so.
