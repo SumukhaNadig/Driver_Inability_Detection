@@ -8,6 +8,10 @@ Files:
 2. master.py :
     This file is the core of the project and measures the number of times the driver blinks, yawns and the amount of time his eyes remain closed to identify it as him sleeping and then raise an alert message. 
     This is basically done with the help of an opensource dataset which maps points on the image to facial features and then finding the ratio of height of the space between each eye to twice its width as this ratio goes lower and lower as the person closes his eyes.
+    
+    
+    Use case demonstration :
+    [(https://github.com/SumukhaNadig/Driver_Inability_Detection/blob/master/bandicam%202019-01-24%2008-31-06-851.mp4)]
 
 3. registernew.py :
     This file adds details of a new user to the database such as the average ERA and Blink frequency by measuring those parameters for a period of 15-30 seconds each (variable depending upon use case). Once the details have been uploaded to the database in Firebase, the parameters of the driver can be retrieved next time to detect if he's sleeping and then raise an alert if so.
