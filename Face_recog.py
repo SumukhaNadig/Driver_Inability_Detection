@@ -5,8 +5,8 @@ import pyrebase
 
 if __name__ == '__main__':
     config = {
-        "apiKey": "AIzaSyCtXef30sl_42IvHOCVR6LjeF4UvAdaBYU",
-        "authDomain": "garage-opener-9ceb2.firebaseapp.com",
+        "apiKey": "",
+        "authDomain": "",
         "databaseURL": "https://garage-opener-9ceb2.firebaseio.com",
         "projectId": "garage-opener-9ceb2",
         "storageBucket": "garage-opener-9ceb2.appspot.com",
